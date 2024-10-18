@@ -1,0 +1,88 @@
+/* Import Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Montserrat:wght@400;700&display=swap');
+
+/* Add the background image to the body */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url('alan-walker.jpg') no-repeat center center fixed; /* Add the image */
+    background-size: cover; /* Make the image cover the entire background */
+    color: #eeeeee;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    margin: 20px 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Slight overlay to make text stand out */
+    padding: 20px;
+}
+
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    color: #00adb5;
+}
+
+header h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #eeeeee;
+    font-size: 1.5rem;
+}
+
+main {
+    margin: 40px;
+    text-align: center;
+}
+
+section.lyrics {
+    background-color: rgba(0, 0, 0, 0.7); /* Dark overlay to improve text readability */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+section.lyrics p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* Styling for emotional impact */
+.soft {
+    font-weight: 300;
+    color: #cccccc;
+    font-style: italic;
+}
+
+.reflective {
+    font-style: italic;
+    color: #00adb5;
+    font-size: 1.3rem;
+}
+
+.bold {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ff2e63;
+}
+
+.shout {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: #ff2e63;
+    letter-spacing: 0.1em;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #00adb5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.6); /* Slight overlay in footer */
+    padding: 10px;
+}
